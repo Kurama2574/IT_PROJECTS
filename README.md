@@ -15,4 +15,3 @@
 
 ## ССЫЛКИ
 * [Мой профиль на GitHub](https://github.com/Kurama2574)
-![Скриншот аккаунта github]([images/2026-09-08_160743.png])
