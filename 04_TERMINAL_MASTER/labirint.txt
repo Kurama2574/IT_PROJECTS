@@ -1,0 +1,8 @@
+mkdir IT_PROJECTS
+mkdir SECTOR_A
+mkdir SECTOR_B
+cd SECTOR_A
+echo Gayko-Avdeev i Krasukov > secret.txt
+cd..
+cd SECTOR_B
+echo IS-26-7K > history_log.txt
