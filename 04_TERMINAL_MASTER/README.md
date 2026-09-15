@@ -9,14 +9,14 @@
 3. Установлены и протестированы утилиты визуализации.
 
  ## ЛАБИРИНТ
-[Открыть текстовый файл](document.txt)
+[Открыть текстовый файл](/04_TERMINAL_MASTER/labirint.txt)
 
 ## ОТЧЕТ СИСТЕМЫ
 ### Системная информация
-![Fastfetch](./screenshots/screen1.png)
+![Fastfetch](/04_TERMINAL_MASTER/screenshots/image-1.png)
 
 ### Красивый текст
-![Figlet](./screenshots/screen2.png)
+![Figlet](/04_TERMINAL_MASTER/screenshots/image-2.png)
 
 ### Сообщение от Cowsay
-![Cowsay](./screenshots/screen3.png)
+![Cowsay](/04_TERMINAL_MASTER/screenshots/image-3.png)
