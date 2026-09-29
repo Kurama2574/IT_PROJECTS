@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    height: 100vh; /* Высота на весь экран */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(45deg, #1f1c2c, #ad0000); 
+    font-family: 'Segoe UI', sans-serif;
+    color: white;
+}
+.glass-card {
+    background: rgba(255, 255, 255, 0.1); 
+    backdrop-filter: blur(10px); 
+    padding: 40px;
+    border-radius: 20px;
+    border: 1px solid rgba(92, 92, 92, 0.247);
+    text-align: center;
+    box-shadow: 0 15px 25px rgba(0,0,0,0.5);
+}
+
+.avatar {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%; /* Делает фото круглым */
+    object-fit: cover;
+    border: 3px solid #ffffff;
+}
+
+.btn {
+    padding: 5px 15px;
+    border-radius: 15px;
+text-decoration: none;
+background-color: black;
+color: #ffffff;
+}
