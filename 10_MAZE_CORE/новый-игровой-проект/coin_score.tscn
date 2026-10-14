@@ -1,0 +1,42 @@
+[gd_scene format=3 uid="uid://dw2tonkexrlo2"]
+
+[ext_resource type="Script" uid="uid://ccnhruji6gxr6" path="res://coin_score.gd" id="1_803au"]
+[ext_resource type="Texture2D" uid="uid://c2nq7ua54sgwd" path="res://butterfly.png" id="2_qy1eo"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_jkd72"]
+atlas = ExtResource("2_qy1eo")
+region = Rect2(0, 0, 32, 32)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_0c1ry"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_jkd72")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 5.0
+}]
+
+[node name="CoinScore" type="CanvasLayer" unique_id=769984756]
+script = ExtResource("1_803au")
+
+[node name="TextureRect" type="AnimatedSprite2D" parent="." unique_id=1318003472]
+position = Vector2(10, 13)
+scale = Vector2(1.90625, 1.9531252)
+sprite_frames = SubResource("SpriteFrames_0c1ry")
+
+[node name="Label" type="Label" parent="." unique_id=10580298]
+offset_left = 21.0
+offset_top = -4.0
+offset_right = 33.0
+offset_bottom = 19.0
+text = "0"
+
+[node name="TouchScreenButton" type="TouchScreenButton" parent="." unique_id=335173085]
+
+[node name="TouchScreenButton2" type="TouchScreenButton" parent="." unique_id=600600089]
+
+[node name="TouchScreenButton3" type="TouchScreenButton" parent="." unique_id=2105530653]
+
+[node name="TouchScreenButton4" type="TouchScreenButton" parent="." unique_id=838923416]

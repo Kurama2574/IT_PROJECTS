@@ -1,0 +1,44 @@
+[gd_scene format=3 uid="uid://2rae2po13wlv"]
+
+[ext_resource type="Texture2D" uid="uid://bx40bofn7yy27" path="res://icon.svg" id="1_tmki8"]
+[ext_resource type="Texture2D" uid="uid://c2nq7ua54sgwd" path="res://butterfly.png" id="2_yblwc"]
+[ext_resource type="Texture2D" uid="uid://d4abmh3s28llx" path="res://Fire.png" id="3_u4bre"]
+
+[node name="win" type="CanvasLayer" unique_id=1556971497]
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=121398292]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(1, 0.4392157, 0.32156864, 1)
+
+[node name="TextEdit" type="Label" parent="." unique_id=1950169763]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -4.0
+offset_top = -11.5
+offset_right = 4.0
+offset_bottom = 11.5
+grow_horizontal = 2
+grow_vertical = 2
+text = "Конец !"
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=336019235]
+position = Vector2(14, 13)
+scale = Vector2(0.2109375, 0.1953125)
+texture = ExtResource("1_tmki8")
+
+[node name="Sprite2D2" type="Sprite2D" parent="." unique_id=1635133448]
+position = Vector2(62.5, 93.5)
+scale = Vector2(1.3020834, 1.9062502)
+texture = ExtResource("2_yblwc")
+
+[node name="Sprite2D3" type="Sprite2D" parent="." unique_id=434090930]
+position = Vector2(188.5, 81)
+scale = Vector2(2.15625, 1.9375)
+texture = ExtResource("3_u4bre")

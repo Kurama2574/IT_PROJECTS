@@ -1,0 +1,104 @@
+[gd_resource type="TileSet" format=3 uid="uid://ctrg0wsv4tbgg"]
+
+[ext_resource type="Texture2D" uid="uid://c22cbki1ftvri" path="res://nettle.png" id="1_x7jcc"]
+[ext_resource type="Texture2D" uid="uid://cfrsew2acvgaa" path="res://hero_cut_spritesheet.png" id="2_3j5wi"]
+[ext_resource type="Texture2D" uid="uid://dy0l4e36y7t7u" path="res://enemy_spritesheet.png" id="3_e8l5q"]
+[ext_resource type="Texture2D" uid="uid://c2nq7ua54sgwd" path="res://butterfly.png" id="4_p2fuk"]
+[ext_resource type="Texture2D" uid="uid://cwcttw7j2h47v" path="res://floor.png" id="5_2yonb"]
+[ext_resource type="Texture2D" uid="uid://dd7ekhddwnyf0" path="res://spritepaint.png" id="6_e8l5q"]
+[ext_resource type="Texture2D" uid="uid://ccrjfb3t4pj5" path="res://spritepaint 2.png" id="7_p2fuk"]
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_h5554"]
+texture = ExtResource("1_x7jcc")
+0:0/0 = 0
+1:0/0 = 0
+2:0/0 = 0
+3:0/0 = 0
+4:0/0 = 0
+5:0/0 = 0
+0:1/0 = 0
+1:1/0 = 0
+2:1/0 = 0
+3:1/0 = 0
+4:1/0 = 0
+5:1/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_5lopg"]
+texture = ExtResource("2_3j5wi")
+0:0/0 = 0
+1:0/0 = 0
+2:0/0 = 0
+3:0/0 = 0
+4:0/0 = 0
+5:0/0 = 0
+0:1/0 = 0
+1:1/0 = 0
+2:1/0 = 0
+3:1/0 = 0
+4:1/0 = 0
+5:1/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_o7gju"]
+texture = ExtResource("3_e8l5q")
+0:0/0 = 0
+1:0/0 = 0
+2:0/0 = 0
+3:0/0 = 0
+4:0/0 = 0
+5:0/0 = 0
+0:1/0 = 0
+1:1/0 = 0
+2:1/0 = 0
+3:1/0 = 0
+4:1/0 = 0
+5:1/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_yv8fe"]
+texture = ExtResource("4_p2fuk")
+0:0/0 = 0
+1:0/0 = 0
+2:0/0 = 0
+3:0/0 = 0
+4:0/0 = 0
+5:0/0 = 0
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_2yonb"]
+load_path = "res://.godot/imported/floor.png-d43f03cb7a8f42941311ed90ed2021b9.ctex"
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_pnqjw"]
+texture = SubResource("CompressedTexture2D_2yonb")
+0:0/0 = 0
+1:0/0 = 0
+0:1/0 = 0
+1:1/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_s8ds5"]
+texture = ExtResource("5_2yonb")
+0:0/0 = 0
+1:0/0 = 0
+0:1/0 = 0
+1:1/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_5wwea"]
+texture = ExtResource("6_e8l5q")
+0:0/0 = 0
+1:0/0 = 0
+0:1/0 = 0
+1:1/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_bdtxp"]
+texture = ExtResource("7_p2fuk")
+0:0/0 = 0
+1:0/0 = 0
+0:1/0 = 0
+1:1/0 = 0
+
+[resource]
+sources/0 = SubResource("TileSetAtlasSource_h5554")
+sources/1 = SubResource("TileSetAtlasSource_5lopg")
+sources/2 = SubResource("TileSetAtlasSource_o7gju")
+sources/3 = SubResource("TileSetAtlasSource_yv8fe")
+sources/4 = SubResource("TileSetAtlasSource_pnqjw")
+sources/5 = SubResource("TileSetAtlasSource_s8ds5")
+sources/6 = SubResource("TileSetAtlasSource_5wwea")
+sources/7 = SubResource("TileSetAtlasSource_bdtxp")
