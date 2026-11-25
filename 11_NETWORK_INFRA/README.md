@@ -8,11 +8,11 @@ Steam - 11.071
 Minecraft - 121.532
 Roblox - 40.034
 Spritepaint - 170.010
-(/2026-11-25_152117.png)
+(\2026-11-25_152117.png)
 
 ## Задание №2: Гео-разведка
-whitehouse.gov - (/2026-11-25_152720.png)
-gosuslugi.ru -  (/2026-11-25_152932.png)
+whitehouse.gov - (\2026-11-25_152720.png)
+gosuslugi.ru -  (\2026-11-25_152932.png)
 
 ## РЕЗУЛЬТАТЫ СЛЕЖКИ
 Я отследил путь до сервера Spritepaint. 
@@ -24,7 +24,7 @@ gosuslugi.ru -  (/2026-11-25_152932.png)
 
 ## ПОДТВЕРЖДЕНИЕ
 ### Трассировка в терминале
-![Trace](/trace.png)
+![Trace](\trace.png)
 
 ### Локация на карте
-![Map](/location.png)
+![Map](\location.png)
